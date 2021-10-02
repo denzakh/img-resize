@@ -1,0 +1,9 @@
+!.gitignore
+/runtime
+/node_modules
+.cache
+.config
+.local
+.bash_history
+.vscode
+robots.txt

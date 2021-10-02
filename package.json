@@ -1,0 +1,37 @@
+{
+  "name": "img-resize",
+  "version": "1.0.0",
+  "description": "for resize img",
+  "main": "index.php",
+  "scripts": {
+    "img": "gulp img"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.2.0",
+    "autoprefixer": "^9.1.0",
+    "gifsicle": "^4.0.1",
+    "gulp": "^4.0.0",
+    "gulp-image-resize": "^0.13.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "*",
+    "gulp-util": "*",
+    "imagemin-jpegoptim": "^6.0.0",
+    "jpegtran": "*",
+    "jpegtran-bin": "^4.0.0",
+    "optipng": "^2.0.0",
+    "optipng-bin": "^5.1.0",
+    "path": "*",
+    "vinyl-buffer": "*",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "author": "Denis Zakharchenko",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-clone": "^2.0.1",
+    "imagemin-jpeg-recompress": "^7.0.0",
+    "imagemin-webp": "^6.0.0",
+    "mkdirp": "^1.0.4",
+    "natives": "^1.1.6"
+  }
+}
